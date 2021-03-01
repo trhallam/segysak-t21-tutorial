@@ -1,0 +1,25 @@
+name: segysak-t21
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - xarray
+  - tqdm
+  - scipy
+  - ipython
+  - ipykernel
+  - jupyter
+  - ipywidgets
+  - segyio
+  - matplotlib
+  - pip
+  - click
+  - attrdict
+  - pyshp
+  - pip:
+      - h5netcdf>=0.8
