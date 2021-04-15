@@ -10,7 +10,7 @@ If you are following along with the notebook during the session you will need to
 `environment.yml` from this repository.
 
 ```shell
-conda create -f environment.yml
+conda env create -f environment.yml
 ```
 follow the prompts, then
 ```shell
